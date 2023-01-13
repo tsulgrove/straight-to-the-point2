@@ -52,6 +52,11 @@ h1 {
     padding: 1rem;
 }
 
+.span_4_of_12 {
+  width: 33%;
+}
+
+
 .span_6_of_12 {
   width: 50%;
 }
@@ -60,9 +65,6 @@ h1 {
   width: 100%;
 }
 
-.span_4_of_12 {
-  width: 33%;
-}
 
 .row::after {
     content: "";
