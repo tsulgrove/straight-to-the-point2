@@ -5,6 +5,16 @@
   font-family: 'Quicksand', sans-serif;
 }
 
+.hidden {
+  position: relative;
+  left: -1000px;
+  top: auto;
+}
+
+.hidden:focus {
+  left:0
+}
+
 header {
   background: Green;
   padding-top: 1rem;
@@ -21,7 +31,7 @@ h1 {
 }
 
 .top-nav ol {
-  background: LightBlue;
+  background: Yellow;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 10rem;
@@ -38,9 +48,9 @@ h1 {
 .top-nav .link a:after {
   display: inline-block;
   content: '/';
-  font-size: 80%;
+  font-size: 120%;
   font-weight: bold;
-  padding: .5rem;
+  padding: 1rem;
 }
 
 .top-nav li:last-child a:after{
